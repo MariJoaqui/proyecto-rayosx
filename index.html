@@ -1,12 +1,19 @@
+<!--
+  - Estudiante: Andress celis.
+  - Cedula:
+  - Grupo: 
+  - Materia: 
+-->
+
 <!doctype html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Andress Celis">
   <meta name="generator" content="">
-  <title id="titulo">Title</title> <!-- Agregar título -->
+  <title id="titulo">RayAdvance</title>
   <link rel="icon" href=""> <!-- Agregar ícono -->
 
   <!-- Bootstrap  -->
@@ -21,21 +28,47 @@
 </head>
 
 <body>
-  <div class="contenido">
+
+  <!-- Contenido -->
+  <div class="contenido float-end">
     <form id="loginForm" method="post">
-      <h1>TITULO</h1>
-      <div class="form-floating">
-        <input type="email" class="form-control" autocomplete="off" name="correo" placeholder="name@example.com">
+      <h1>RayAdvance</h1>
+
+      <!-- Campo del correo electrónico -->
+      <div class="form-floating mb-3">
+        <input type="email" 
+               class="form-control" 
+               autocomplete="off" 
+               name="correo" 
+               placeholder="name@example.com"
+        >
         <label for="floatingInput">Correo electrónico</label>
       </div>
+
+      <!-- Campo de la contraseña -->
       <div class="form-floating">
-        <input type="password" class="form-control" autocomplete="off" name="contraseña" placeholder="Password">
+        <input type="password" 
+               class="form-control" 
+               autocomplete="off" 
+               name="contraseña" 
+               placeholder="Password"
+        >
         <label for="floatingPassword">Contraseña</label>
       </div>
+
+      <!-- Respuesta -->
       <div id="resp"></div>
       <br>
-      <button id="btn" class="w-50 btn btn-lg text-white" type="submit">Ingresar</button>
-      <p class="mt-5 mb-3 text-muted;">Nombre Apellido. &copy; 2022</p> <!-- Nombre del autor -->
+
+      <!-- Botón para ingresar -->
+      <button id="btn btn-rimary" 
+              class="btn fw-bold" 
+              type="submit">
+              Ingresar
+      </button>
+
+      <!-- Autor -->
+      <p class="mt-4 text-muted;">&copy;2023</p>
     </form>
   </div>
 
