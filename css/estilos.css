@@ -22,8 +22,13 @@ body {
   height: 30rem;
   background: #9fc6c5;
   border-radius: 15px;
-  padding: 5rem 3rem;
+  padding: 2.4rem 3rem;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: 6rem;
+  height: 6rem;
 }
 
 button { 
