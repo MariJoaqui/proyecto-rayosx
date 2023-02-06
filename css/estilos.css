@@ -3,13 +3,16 @@
   margin: 0;
 }
 
+/* Globales */
 h1 {
   font-size: 1.7rem;
   font-weight: bold;
   margin-bottom: 2rem;
 }
 
-body {
+a { text-decoration: none; }
+
+.body {
   background: #008F8D;
   padding: 7rem 2.5rem;
   display: flex;
@@ -17,6 +20,35 @@ body {
   text-align: center;
 }
 
+/* Nabvar */
+.offcanvas-header { 
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.nav-item { padding-left: 1rem; }
+
+.nav-item:hover { background: #6c6c6c; }
+
+.nav-link:hover { color: #fff !important; }
+
+/* Footer */
+.footer { 
+  color: #ffffff;
+  background: #414141;
+  border-radius: 0 !important; 
+}
+
+.footer a { color: #fff; }
+
+.redes-sociales-iconos { 
+  cursor: pointer;
+  margin: 0 1rem 0 1rem; 
+}
+
+.redes-sociales-iconos:hover { color: #008F8D; }
+
+/* Index */
 .contenido {
   width: 20rem;
   height: 30rem;
@@ -31,13 +63,44 @@ img {
   height: 6rem;
 }
 
-button { 
+.boton-ingresar { 
   background: rgb(237, 236, 236) !important;
   color: #008F8D !important;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-button:hover { 
+.boton-ingresar:hover { 
   background: #008F8D !important;
   color: #fff !important;
+}
+
+/* Home */
+.cuerpo { 
+  background: #008F8D;
+  padding: 10rem 4rem 8rem 4rem !important;
+}
+
+.cartas-margen { margin: 1rem 0; }
+
+.img-cards { height: 15rem; }
+
+.boton-ir {
+  background: #024b49;
+  color: #fff;
+}
+
+.boton-ir:hover { 
+  color: #fff;
+  background: #00312f;
+}
+
+/* Registro */
+.display-formulario { display: flex; }
+
+.registro { padding-top: 6rem !important; }
+
+.registro h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
 }

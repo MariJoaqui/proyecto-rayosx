@@ -78,48 +78,43 @@
   <!-- /Header y menú -->
 
   <!-- Cuerpo -->
-  <div class="cuerpo">
-    <div class="row">
-      <div class="col cartas-margen">
-        <div class="card" style="width: 18rem;">
-          <img src="../img/img-registro.png" class="card-img-top img-cards" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Registgro</h5>
-            <p class="card-text">Registro de pacientes a realizarse Rayos X.</p>
-            <a href="../html/registro.html" class="btn boton-ir">Agregar</a>
+  <div class="cuerpo registro">
+    <h4>Datos del paciente</h4>
+    <div class="formulario">
+      <form action="" method="post">
+        <div class="display-formulario">
+          <div>
+            <!-- Nombre -->
+            <input type="text" 
+                   class="form-control" 
+                   placeholder="Ingrese su Nombre" 
+                   aria-label="First name"
+                   name="nombre">
+                   
+            <!-- Apellido -->
+            <input type="text" 
+                   class="form-control" 
+                   placeholder="Ingrese su Apellido" 
+                   aria-label="Last name"
+                   name="apellidos">
+
+            <!-- Cédula -->
+            <input type="text" 
+                   class="form-control" 
+                   placeholder="Ingrese su Cédula" 
+                   aria-label="First name"
+                   name="nombre">
+
+            <!-- Teléfono -->
+            <input type="text" 
+                   class="form-control" 
+                   placeholder="Ingrese su Teléfono" 
+                   aria-label="Last name"
+                   name="apellidos">
           </div>
+          <img src="../img/img-registro-1.png"/>
         </div>
-      </div> 
-      <div class="col cartas-margen">
-        <div class="card" style="width: 18rem;">
-          <img src="../img/img-reportes.png" class="card-img-top img-cards" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Reportes</h5>
-            <p class="card-text">Descargar PDF con reportes por fecha y tipo de radiografía.</p>
-            <a href="#" class="btn boton-ir">Descargar</a>
-          </div>
-        </div>
-      </div>
-      <div class="col cartas-margen">
-        <div class="card" style="width: 18rem;">
-          <img src="../img/img-estadisticas.png" class="card-img-top img-cards" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Estadísticas</h5>
-            <p class="card-text">Ver las estadísticas de los últimos meses.</p>
-            <a href="#" class="btn boton-ir">Visualizar</a>
-          </div>
-        </div>
-      </div>
-      <div class="col cartas-margen">
-        <div class="card" style="width: 18rem;">
-          <img src="../img/img-opciones.png" class="card-img-top img-cards" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Opciones</h5>
-            <p class="card-text">Opciones del sistemas y sus usuarios.</p>
-            <a href="#" class="btn boton-ir">Configurar</a>
-          </div>
-        </div>
-      </div>
+      </form>
     </div>
   </div>
   <!-- /Cuerpo -->
