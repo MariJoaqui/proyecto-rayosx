@@ -1,8 +1,7 @@
 <!--
-  - Estudiante: Andress celis.
-  - Cedula:
-  - Grupo: 
-  - Materia: 
+  - Estudiante: Andress Eduardo Celis Bravo.
+  - Cédula: 27.757.855
+  - Materia: Electiva II: Técnicas de desarrollo web.
 -->
 
 <!DOCTYPE html>
@@ -23,6 +22,7 @@
 
   <!-- CSS -->
   <link href="../css/estilos.css" rel="stylesheet">
+  <link href="../css/media-estilos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -51,7 +51,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="../html/reportes.html">
                 Reportes
               </a>
             </li>
@@ -61,7 +61,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="../html/opciones.html">
                 Opciones
               </a>
             </li>
@@ -81,40 +81,78 @@
   <div class="cuerpo registro">
     <h4>Datos del paciente</h4>
     <div class="formulario">
+
+      <!-- Formulario -->
       <form action="" method="post">
         <div class="display-formulario">
-          <div>
-            <!-- Nombre -->
-            <input type="text" 
-                   class="form-control" 
-                   placeholder="Ingrese su Nombre" 
-                   aria-label="First name"
-                   name="nombre">
-                   
-            <!-- Apellido -->
-            <input type="text" 
-                   class="form-control" 
-                   placeholder="Ingrese su Apellido" 
-                   aria-label="Last name"
-                   name="apellidos">
+          <div class="datos-formulario">
+            <div class="info-formulario">
+              <!-- Nombre -->
+              <input type="text" 
+                     class="form-control botones-formulario" 
+                     placeholder="Ingrese su Nombre" 
+                     name="nombre">
+            
+              <!-- Apellido -->
+              <input type="text" 
+                     class="form-control botones-formulario" 
+                     placeholder="Ingrese su Apellido" 
+                     name="apellido">
+            </div>
+            <div class="info-formulario">
+              <!-- Cédula -->
+              <input type="text" 
+                     class="form-control botones-formulario" 
+                     placeholder="Ingrese su Cédula"
+                     name="cedula">
 
-            <!-- Cédula -->
-            <input type="text" 
-                   class="form-control" 
-                   placeholder="Ingrese su Cédula" 
-                   aria-label="First name"
-                   name="nombre">
+              <!-- Teléfono -->
+              <input type="text" 
+                     class="form-control botones-formulario" 
+                     placeholder="Ingrese su Teléfono" 
+                     name="telefono">
+            </div>
+            <div class="info-formulario">
+              <!-- Correo -->
+              <input type="text" 
+                     class="form-control botones-formulario" 
+                     placeholder="Ingrese su Correo Electrónico" 
+                     name="correo">
+              
+              <!-- Dirección -->
+              <input type="text" 
+                     class="form-control botones-formulario" 
+                     placeholder="Ingrese su Correo Electrónico" 
+                     name="direccion">
+            </div>
+            <!-- Tipo de rayos X -->
+            <select class="form-select botones-formulario select-formulario">
+              <option selected>Seleccionar</option>
+              <option value="1">Radiografía de la pelvis.</option>
+              <option value="2">Radiografía abdominal.</option>
+              <option value="3">Radiografía de hueso.</option>
+              <option value="4">Enema opaco.</option>
+              <option value="5">Radiografía de tórax.</option>
+              <option value="6">Radiografía de los dientes.</option>
+              <option value="7">Radiografía de una extremidad.</option>
+              <option value="8">Radiografía de las articulaciones.</option>
+              <option value="9">Radiografía del cuello.</option>
+              <option value="10">Radiografía del cráneo.</option>
+              <option value="11">Radiografía del esqueleto.</option>
+            </select>
 
-            <!-- Teléfono -->
-            <input type="text" 
-                   class="form-control" 
-                   placeholder="Ingrese su Teléfono" 
-                   aria-label="Last name"
-                   name="apellidos">
+            <!-- Botón para ingresar -->
+            <button id="btn btn-rimary" 
+                    class="boton-registrar btn fw-bold mt-2" 
+                    type="submit">
+                    Registrar
+            </button>
           </div>
-          <img src="../img/img-registro-1.png"/>
+          <img src="../img/img-registro-1.png" class="imagen-formulario"/>
         </div>
       </form>
+      <!-- /Formulario -->
+
     </div>
   </div>
   <!-- /Cuerpo -->

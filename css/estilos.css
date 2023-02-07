@@ -58,7 +58,7 @@ a { text-decoration: none; }
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-img {
+.logo-login {
   width: 6rem;
   height: 6rem;
 }
@@ -95,12 +95,59 @@ img {
 }
 
 /* Registro */
-.display-formulario { display: flex; }
-
 .registro { padding-top: 6rem !important; }
 
 .registro h4 {
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
+  margin-bottom: 2rem;
+}
+
+.display-formulario { display: flex; }
+
+.datos-formulario {
+  width: 70%;
+  margin-right: 3rem;
+}
+
+.info-formulario { display: flex; }
+
+.botones-formulario { 
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2); 
+  margin: 0 3rem 2rem 0;
+}
+
+.select-formulario { width: 95%; }
+
+.imagen-formulario { 
+  width: 18rem; 
+  height: 20rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.boton-registrar {
+  background: #959595;
+  color: #ffffff;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.boton-registrar:hover {
+  background: #414141;
+  color: #fff;
+}
+
+/* Reportes */
+.tabla-reportes { box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2); }
+
+/* Opciones */
+.texto-usuarios {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.boton-agregar-usuario {
+  width: 100%;
+  text-align: center;
 }
